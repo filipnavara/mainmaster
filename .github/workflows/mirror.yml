@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Push master branch
-        run: git push --set-upstream origin main:master
+        run: git push --force --set-upstream origin main:master
